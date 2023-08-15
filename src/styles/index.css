@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #ec1d24;       /* Rojo */
+    --secondary-color: #202020;     /* Negro */
+    --tercer-color: #151515;
+    --four-color: #e62429;
+    --five-color: #9f0013;
+    --success-color: #28a745;       /* Verde */       
+    --warning-color: #ffc107;       /* Amarillo */
+    --info-color: #17a2b8;          /* Cian */
+    --backgroun-color: #e62429;
+    
+}
+
+
+
+.letter_Marvel{
+    font-family: 'Marvel', sans-serif;
+}
+
+.letter_Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav_letter{
+    font-size: 100px;
+}
+
+.bg-nav{
+    background-color: var(--secondary-color);
+}
+
+.color_lettre_information{
+    color: var(--warning-color);
+}

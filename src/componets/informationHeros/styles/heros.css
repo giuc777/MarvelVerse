@@ -1,0 +1,33 @@
+.SectionHeros{
+    background-color: var(--backgroun-color);
+    padding-block-end: 20px;
+}
+
+.ButtonNewheros{
+    border-radius: 20px;
+    border:  none;
+    background-color: var(--five-color);
+    color: white;
+    height: 40px;
+    width: 300px;
+    font-size: x-large;
+    margin-inline-start: 50px;
+    margin-block-start: 20px;
+
+}
+
+.ButtonNewheros:hover{
+    color: black;
+    background-color: var(--four-color);
+}
+
+.titleCarrouselHeros{
+    color: var(--tercer-color);
+    font-weight: bolder;
+}
+.subtittle1{
+    margin-inline-start: 50px;
+    margin-block-end: 20px;
+}
+
+

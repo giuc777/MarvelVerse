@@ -1,0 +1,49 @@
+.button_carrousel_comics{
+    border: none;
+    background-color: var(--info-color);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.lettre_information{
+    color: white;
+}
+.descriptionText{
+    color: var(--tercer-color);
+    font-size: large;
+    
+}
+.elemnt :hover{
+    cursor: pointer;
+}
+
+.animation{
+    transition: transform 1s ease;
+    transform-origin: top;
+}
+
+.imgCarrousel img{
+    height: 400px;
+    width: 100%;
+}
+
+.imgCarrousel div{
+    margin-top: 10px;
+    margin-inline-start: 50px;
+}
+.animation :hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px){
+    .imgCarrousel img{
+        height: 200px;
+        width: 100%;
+    }
+    .imgCarrousel div{
+        margin-top: 10px;
+        margin-inline-start: 0;
+
+    }
+}

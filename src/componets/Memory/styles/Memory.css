@@ -1,0 +1,101 @@
+.MemoryTarjects .Game div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+
+
+.Game{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.MemoryTarjects{
+    padding-block-start: 20px;
+    background-color: var(--backgroun-color);
+    padding-block-end: 40px;
+}
+
+.Backimage{
+    height: 200px;
+    width: 200px;
+}
+.ButtonGameCardNew{
+    border-radius: 20px;
+    border:  none;
+    background-color: var(--five-color);
+    color: white;
+    height: 40px;
+    width: 300px;
+    font-size: x-large;
+    margin-inline-start: 50px;
+    margin-block-start: 20px;
+}
+
+.GameMemoryTime{
+    font-size: xx-large;
+    color: white;
+    margin-inline-start: 20px;
+    margin-block-start: 10px;
+}
+
+.Modal .Modal_win_header{
+    background-color: var(--secondary-color);
+    border-bottom: none;
+    color: white;
+}
+
+.Modal_win_body{
+    background-color: var(--four-color);
+    color: white;
+}
+
+.Modal .Modal_win_footer{
+    background-color: var(--four-color);
+    border-top: none;
+}
+
+.Modal .Modal_win_footer button{
+    border-radius: 10px;
+    border:  none;
+    background-color: var(--five-color);
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: x-large;
+}
+
+@media (max-width: 968px) {
+    .GameMemoryTime{
+        color: black;
+
+    }
+    .MemoryTarjects .Game div{
+        height: 150px;
+        width: 150px;
+        
+    }
+    .Backimage{
+        height: 150px;
+        width: 150px;
+    }
+    
+    
+}
+
+@media (max-width: 768px){
+    .MemoryTarjects .Game div{
+        height: 100px;
+        width: 100px;
+        
+    }
+    .Backimage{
+        height: 100px;
+        width: 100px;
+    }
+}
