@@ -17,12 +17,7 @@ const caracters = (Key, Hash) => {
     )
       .then((response) => response.json())
       .then((data) => {
-        console.log(data)
-        if(Key != ''){
-          console.log("Lego la llave"+ Key + Hash)
-        }else{
-          console.log("No llego la llave")
-        }
+  
         return data.data.results
       })
       .catch((error) => console.log(error));
