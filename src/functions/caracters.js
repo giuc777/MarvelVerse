@@ -16,7 +16,10 @@ const caracters = (Key, Hash) => {
       `https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=${lettreRandom}&ts=1&limit=10&apikey=${Key}&hash=${Hash}`
     )
       .then((response) => response.json())
-      .then((data) => data.data.results)
+      .then((data) => {
+        console.log(data)
+        return data.data.results
+      })
       .catch((error) => console.log(error));
   };
   
