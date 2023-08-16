@@ -7,11 +7,11 @@ const Memory = ()=>{
 
 
     const values =[
-        {id: 1, image: '/FrontCard.webp', hero: '/Ant-man.webp'},
-        {id: 2, image: '/FrontCard.webp', hero: '/BlackPanter.webp'},
-        {id: 3, image: '/FrontCard.webp', hero: '/BlackWidow.webp'},
-        {id: 4, image: '/FrontCard.webp', hero: '/DoctorStrange.webp'},
-        {id: 5, image: '/FrontCard.webp', hero: '/Spiderman.webp'}
+        {id: 1, image: './FrontCard.webp', hero: './Ant-man.webp'},
+        {id: 2, image: './FrontCard.webp', hero: './BlackPanter.webp'},
+        {id: 3, image: './FrontCard.webp', hero: './BlackWidow.webp'},
+        {id: 4, image: './FrontCard.webp', hero: './DoctorStrange.webp'},
+        {id: 5, image: './FrontCard.webp', hero: './Spiderman.webp'}
     ]
 
     const [CreateRandomArray, setCreateRandomArray] = useState([]);
