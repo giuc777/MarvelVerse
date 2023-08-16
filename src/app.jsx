@@ -13,7 +13,7 @@ const App = ()=>{
           <Header />
           <Nav />
           <Routes>
-            <Route path="/" element={<Heros />} />
+            <Route path="/MarvelVerse" element={<Heros />} />
             <Route path="/trivia" element={<Trivia />} />
             <Route path="/Search" element={<Search />}/>
             <Route path="/Memory" element={<Memory />} />

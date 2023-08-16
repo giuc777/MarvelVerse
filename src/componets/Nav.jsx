@@ -13,7 +13,7 @@ const Nav = ()=>{
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item h4">
-                  <Link className="nav-link active letter_Marvel text-white" to='/'>Home</Link>
+                  <Link className="nav-link active letter_Marvel text-white" to='/MarvelVerse'>Home</Link>
                   </li>
                   <li className="nav-item h4">
                     <Link className="nav-link active letter_Marvel text-white" to='/trivia'>Trivias</Link>
