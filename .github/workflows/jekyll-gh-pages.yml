@@ -37,6 +37,8 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
+      - name: Replace variables
+        run: envsubst < src/componets/informationHeros/Heros.jsx > src/componets/informationHeros/Heros.jsx
       - name: Build
         run: npm run build
       - name: Setup Pages
