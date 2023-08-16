@@ -20,6 +20,7 @@ const Heros = () => {
       
       try {
         const newCharactersResult = await caracters(key, hash);
+        console.log(newCharactersResult)
         setCharactersData(newCharactersResult);
         setCharacters(false)
         setStart(1); // Reiniciar el inicio de la lista a 1
